@@ -18,8 +18,8 @@ h1 {
 .container img {
     width: 60%;
     height: 60%;
-    border: 3px solid black;
     opacity: 0.8;
+    border: 2px outset black;
 }
 
 button:hover {
@@ -35,7 +35,7 @@ button:hover {
     font-size: 18px;
     font-weight: 800;
     padding: 12px 24px;
-    border: 4px outset black;
+    border: 2px outset black;
     cursor: pointer;
     border-radius: 12px;
     opacity: 0.8;
