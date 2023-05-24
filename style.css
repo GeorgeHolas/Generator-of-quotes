@@ -1,0 +1,62 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.9;
+}
+
+.container {
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.container img {
+    width: 60%;
+    height: 60%;
+    border: 3px solid black;
+    opacity: 0.8;
+}
+
+button:hover {
+    border-color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+      
+#btn {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 12px 24px;
+    border: 4px outset black;
+    cursor: pointer;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.container #output {
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    color: white;
+    font-size: 21px;
+    transform: rotate(-2deg);
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+div #output {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 20px; 
+}
+
